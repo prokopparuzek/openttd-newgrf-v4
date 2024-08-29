@@ -10,7 +10,7 @@
 
 #include "undefine_type.pnml"
 
-#define CURRENT_TRACK_TYPE NAA3
+#define CURRENT_TRACK_TYPE MTRO
 
 #define SET_TRACK_TYPE if (railtype_available("MTRO")) {\
  item(FEAT_TRAINS, ITEM ) {\
